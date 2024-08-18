@@ -1,0 +1,115 @@
+\documentclass{ctexart}
+\usepackage{amsmath,mathrsfs,amsfonts}
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\begin{document}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}
+            \draw (0,0)--(5,0); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[->] {(0,0)--(5,0)}; % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=stealth]
+            \draw[<-] (0,0)--(5,0); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->] (0,0)--(5,0); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}
+            \draw[|<->|] (0,0)--(5,0); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[dashed] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[dotted] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[dashdotted] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed,thick] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed,very thick] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed,ultra thick] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed,thin] (0,-1) to (5,-1); % C,C# ,C++
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+    \begin{figure}[htp]
+        \centering
+        \begin{tikzpicture}[>=latex]
+            \draw[<->,dashed,thin] {(0,-1) --node[above]{5cm} (5,-1)}; % C,C# ,C++
+            \draw[<->,dashed,thin] {(0,-2) --node[below]{5cm} (5,-2)};
+            \draw[<->,dashed,thin] {(0,-3) --node[below=3mm]{5cm} (5,-3)};
+            % node 节点 above below left right
+        \end{tikzpicture}
+        \caption{}
+    \end{figure}
+\end{document}
